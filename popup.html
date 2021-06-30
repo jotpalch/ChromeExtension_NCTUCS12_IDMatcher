@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none'; "> -->
+    <!-- <script src="popup.js"></script> -->
+    <script src="popup_uploadver.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <title>NCTUCS12_NUM_to_NAME</title>
+  </head>
+  <body>
+    <div class="card bg-light mb-3">
+      <p class="card-header">輸入學號或姓名:</p>
+      <div class="card-body">
+          <div class="input-group">
+            <input id="search">
+            <span class="input-group-button">
+              <button id="copy" class="btn" data-clipboard-target="#search" >
+                  <img src="clipboard.svg" alt="Copy to clipboard">
+              </button>
+            </span>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
