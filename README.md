@@ -1,4 +1,4 @@
-# ChromeExtention_NCTUCS12_IDMatcher
+# ChromeExtension_NCTUCS12_IDMatcher
 實作 Chrome Extension 可以在瀏覽器上以學號查詢姓名或以姓名查詢學號 
 
 *由於涉及個資問題，這邊只放上我自己的姓名與學號當作範例*
